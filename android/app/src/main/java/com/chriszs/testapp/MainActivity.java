@@ -1,4 +1,6 @@
 package com.chriszs.testapp;
+import expo.modules.splashscreen.SplashScreenImageResizeMode;
+import expo.modules.splashscreen.SplashScreen;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -18,6 +20,9 @@ public class MainActivity extends ReactActivity {
     // This is required for expo-splash-screen.
     setTheme(R.style.AppTheme);
     super.onCreate(null);
+// @generated begin expo-splash-screen-mainActivity-onCreate-show-splash - expo prebuild (DO NOT MODIFY) sync-8915a20732e7fda227585f9b6ef0d38bef4fbbbe
+    SplashScreen.show(this, SplashScreenImageResizeMode.CONTAIN, ReactRootView.class, false);
+// @generated end expo-splash-screen-mainActivity-onCreate-show-splash
   }
 
   /**
