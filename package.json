@@ -12,8 +12,10 @@
     "expo": "^50.0.0-preview.8",
     "expo-splash-screen": "~0.26.1",
     "expo-status-bar": "~1.11.1",
+    "onesignal-expo-plugin": "^2.0.2",
     "react": "18.2.0",
-    "react-native": "^0.73.2"
+    "react-native": "^0.73.2",
+    "react-native-onesignal": "^5.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
