@@ -1,4 +1,7 @@
 package com.chriszs.testapp
+import com.facebook.react.ReactRootView
+import expo.modules.splashscreen.SplashScreenImageResizeMode
+import expo.modules.splashscreen.singletons.SplashScreen
 
 import android.os.Build
 import android.os.Bundle
@@ -17,6 +20,9 @@ class MainActivity : ReactActivity() {
     // This is required for expo-splash-screen.
     setTheme(R.style.AppTheme);
     super.onCreate(null)
+// @generated begin expo-splash-screen-mainActivity-onCreate-show-splash - expo prebuild (DO NOT MODIFY) sync-96e2202168719094855c6356e7edc991c247f12c
+    SplashScreen.show(this, SplashScreenImageResizeMode.CONTAIN, ReactRootView::class.java, false)
+// @generated end expo-splash-screen-mainActivity-onCreate-show-splash
   }
 
   /**
