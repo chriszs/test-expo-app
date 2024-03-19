@@ -7,7 +7,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@types/jest": "^29.5.11",
@@ -16,6 +17,7 @@
     "expo-status-bar": "0.0.1-canary-20240318-dd8f245",
     "jest": "^29.3.1",
     "jest-expo": "51.0.0-canary-20240318-dd8f245",
+    "patch-package": "^8.0.0",
     "react": "18.2.0",
     "react-native": "0.74.0-rc.3"
   },
