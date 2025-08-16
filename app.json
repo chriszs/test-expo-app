@@ -36,7 +36,17 @@
         }
       ],
       "expo-font",
-      "expo-web-browser"
+      "expo-web-browser",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "extraMavenRepos": [
+              "https://mvn.jwplayer.com/content/repositories/releases/"
+            ]
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
